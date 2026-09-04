@@ -11,6 +11,7 @@ namespace StrategyPattern
             mallard.Display();
             mallard.PerformQuack();
             mallard.PerformFly();
+            mallard.PerformSwim();
 
             Console.WriteLine();
 
@@ -20,6 +21,7 @@ namespace StrategyPattern
             robot.PerformFly();
             robot.PerformSwim();
 
+
             Console.WriteLine();
 
 
@@ -27,6 +29,8 @@ namespace StrategyPattern
             redhead.Display();
             redhead.PerformQuack();
             redhead.PerformFly();
+            redhead.PerformSwim();
+
 
             Console.WriteLine();
 
@@ -34,6 +38,8 @@ namespace StrategyPattern
             decoy.Display();
             decoy.PerformQuack();
             decoy.PerformFly();
+            decoy.PerformSwim();
+
 
             Console.WriteLine();
 
@@ -41,6 +47,10 @@ namespace StrategyPattern
             rubber.Display();
             rubber.PerformQuack();
             rubber.PerformFly();
+            rubber.PerformSwim();
+
+
+            Console.WriteLine();
 
 
         }

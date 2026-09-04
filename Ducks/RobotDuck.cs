@@ -15,7 +15,7 @@ namespace StrategyPattern.Ducks
 
         public override void Display()
         {
-            Console.WriteLine("I'm a real Mallard duck");
+            Console.WriteLine("I'm a real Robot duck");
         }
     }
 }
